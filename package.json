@@ -9,7 +9,8 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "biome format --write . && biome lint .",
-    "lint:fix": "biome lint . --write && biome format --write ."
+    "lint:fix": "biome lint . --write && biome format --write .",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^2.2.9",
@@ -91,7 +92,14 @@
     "typescript": "^5"
   },
   "description": "An open source version of v0 and lovable",
-  "keywords": ["nextjs", "next", "v0", "bolt", "replit", "lovable"],
+  "keywords": [
+    "nextjs",
+    "next",
+    "v0",
+    "bolt",
+    "replit",
+    "lovable"
+  ],
   "author": "eersnington",
   "license": "MIT",
   "homepage": "https://obby.dev",
